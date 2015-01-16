@@ -1,0 +1,118 @@
+
+/* Colors: */
+/* ISDA logo: #00539f rgba(0,83,159,0.5)*/
+/* Accent: #e8554e */
+
+body {
+	/*min-height: 2000px;*/
+	background-color: #002A56;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+#wrapper {
+	background-color: white;
+}
+#navBar {
+	margin: 0 auto;
+	border-style: none;
+	background-color: #002A56;
+}
+#header-nav-container {
+	background-color: white;
+}
+/* This class is added upon scroll */
+.header-bottom-border {
+	box-shadow: 0px 8px 17px -8px rgba(0, 0, 0, 0.1);S
+}
+#navbar {
+	text-align: center;
+	padding-bottom: 20px;
+}
+#navbar > ul {
+	margin: 0 auto;
+}
+.nav > li > a {
+	letter-spacing: 5px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin: 0 1.5em;
+}
+.navbar-nav {
+	float: none;
+	display: inline-block;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: white;
+	/*color: #00539f;*/
+	/*border-bottom: 1px solid #00539f;*/
+}
+/* Border bottom on li element */
+.navbar-default .navbar-nav > .active,
+.navbar-default .navbar-nav > li:hover {
+	/*border-bottom: 1px solid red;*/
+}
+#logo-container {
+	background-image: url('images/ISDAMark3.png');
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 55px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+#contentBox {
+	/*margin-top determined by height of header/nav in js*/
+	/*padding: 0 160px 40px 160px;*/
+}
+.post {
+	display: block;
+	padding: 20px 50px 20px 50px;
+	background-color: #eee;
+	margin-bottom: 30px;
+}
+.post h3 {
+	font-family: 'Lobster';
+	margin: 0 0 10px 0;
+	font-weight: bold;
+}
+.post .date {
+	font-family: 'Antic Slab', serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 0 0 30px 0;
+}
+.post a {
+	float: right;
+	color: #337ab7;
+}
+.post a:hover {
+	color: darkgray;
+	text-decoration: none;
+}
+.post .post-pic {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.post .p-container {
+	margin: 0 0 5px 0;
+}
+/*Fade nav links*/
+#navbar li.fade {
+	opacity: 0.6;
+}
+#navbar li.fade a {
+	color:       transparent;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+	/*transition:  text-shadow 2000ms ease;*/
+}
+
+/* Borders while I do layout */
+/*.post, .date, h3, .post-pic, .p-container {*/
+	/*border: 1px solid darkgray;*/
+/*}*/
