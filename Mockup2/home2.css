@@ -1,0 +1,88 @@
+
+body {
+	/*min-height: 2000px;*/
+	background-color: #002A56;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding-top: 50px;
+}
+
+/* Header section */
+.navbar {
+	background-color: #002A56;
+	border: none;
+	box-shadow: none;
+}
+#main-nav-container {
+	background-color: white;
+}
+#logo-container {
+	background-image: url('../images/ISDAMark3.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 150px;
+	height: 55px;
+	margin: 60px auto 30px auto;
+}
+#navbar {
+	text-align: center;
+}
+.navbar-nav {
+	display: inline-block;
+	float: none;
+}
+
+/* Main and footer */
+#main-and-footer-container {
+	margin-top: 150px;
+}
+
+/* Main container */
+#main-container {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.post {
+	display: block;
+	padding: 35px;
+	background-color: #eee;
+	margin-bottom: 30px;
+	width: 70%
+}
+.post .post-pic {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.post .post-title {
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 24px;
+}
+.post .post-date {
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 400;
+	/*font-size: 24px;*/
+}
+.post .post-content {
+}
+
+/* Borders while I code */
+img, p, .container-fluid {
+	border: 1px solid red;
+}
+
+/* Footer */
+.navbar-fixed-bottom {
+	background-color: white;
+}
+
+
+
+
+
+
+
+
