@@ -22,18 +22,15 @@ $(".nav a").on("click", function(){
 //	$(this).siblings().removeClass("fade");
 //});
 
-// Underline active & hover nav links
-
-
-
-// Make bottom shadow of header appear/disappear on scroll
+// Make bottom shadow of header//footer appear & disappear on scroll
 $(window).scroll(function() {
 	var value = $(window).scrollTop();
 	if ( value > 0 ) {
-		$('#add-shadow').addClass('header-bottom-border');
-	}
-	else {
-		$('#add-shadow').removeClass('header-bottom-border');
+		$('#header-add-shadow').addClass('header-bottom-border');
+		$('#footer-add-shadow').addClass('footer-bottom-border');
+	} else {
+		$('#header-add-shadow').removeClass('header-bottom-border');
+		$('#footer-add-shadow').removeClass('footer-bottom-border');
 	}
 });
 
