@@ -31,10 +31,15 @@ body {
 	padding-right: 0;
 	padding-left: 0;
 	margin: 0 1.5em;
+	font-size: 14px;
+	font-family: 'Vollkorn', serif;
+	text-transform: uppercase;
+	color: #c3996b;
 }
 /* Remove square gray background on active, hover & focus */
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	background-color: white;
+	color: #2b3844;
 }
 .navbar-nav {
 	display: inline-block;
@@ -51,11 +56,6 @@ body {
 /* Shadow upon scroll */
 .header-bottom-border {
 	box-shadow: 0px 8px 17px -8px rgba(0, 0, 0, 0.1);
-}
-
-/* Main and footer */
-#main-and-footer-container {
-	/*margin-top: 134px;*/
 }
 
 /* Main container */
@@ -115,6 +115,7 @@ body {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+/* Footer shadow upon scroll */
 .footer-bottom-border {
 	box-shadow: 0px -8px 17px -8px rgba(0, 0, 0, 0.1);
 }
