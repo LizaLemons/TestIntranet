@@ -1,0 +1,18 @@
+.location {
+	height: 260px;
+	background: url(http://corp.zinio.com/assets/0000/0103/lichen/faae17c77a88068d0484debe05ab3b4d.jpg);
+	background-size: cover;
+	position: relative;
+	float: left;
+}
+
+.new-york h2 {
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 3rem;
+	transform: translate(-50%, -50%);
+}

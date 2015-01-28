@@ -1,0 +1,22 @@
+.emergency-post {
+	display: block;
+	padding: 0 35px 10px 35px;
+	width: 70%;
+	color: #2b3844;
+	font-family: 'Vollkorn', serif;
+}
+
+.emergency-post .emergency-content {
+	padding: 0 20px 0 20px;
+}
+
+.emergency-post h1 {
+	font-family: 'Open Sans', 'Unica One', cursive;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 1em;
+}
+
+.emergency-post h3 {
+	font-weight: 400;
+}

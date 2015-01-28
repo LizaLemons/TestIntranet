@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 
 // Set margin-top of main-and-footer-container equal to the height of the header/nav
 var heightOfNavbar = $("#header-navbar").height();
@@ -7,6 +7,11 @@ $("#main-and-footer-container").css({marginTop: heightOfNavbar + -1 + 'px'});
 // Set margin-bottom of main-and-footer-container equal to the height of the footer
 var heightOfFooter = $("#footer-navbar").height();
 $("#main-and-footer-container").css({marginBottom: heightOfFooter + -15 + 'px'});
+
+// Set height of main-and-footer-container = to height of window
+//var height = $(window).height();
+//$('#main-and-footer-container').css('min-height', height + 'px');
+
 
 // Mark links in navbar as active
 $(".nav a").on("click", function(){
@@ -35,3 +40,5 @@ $(window).scroll(function() {
 });
 
 
+
+}); //end document ready fxn
