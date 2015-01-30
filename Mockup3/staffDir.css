@@ -1,3 +1,8 @@
+
+#main-container-2 {
+	background-color: white;
+}
+
 .location {
 	height: 260px;
 	background: url(http://corp.zinio.com/assets/0000/0103/lichen/faae17c77a88068d0484debe05ab3b4d.jpg);
@@ -15,4 +20,26 @@
 	left: 50%;
 	font-size: 3rem;
 	transform: translate(-50%, -50%);
+}
+
+/* #### Picture Grid #### */
+#pictures-grid {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.grid-pic-row {
+	margin-bottom: 15px;
+}
+
+.grid-pic {
+	height: auto;
+	width: 100%;
+	margin-top: 15px;
+	transition: all 0.2s ease-in-out;
+}
+.grid-pic:hover {
+	transform: scale(1.03);
+}
+.grid-pic:after {
+
 }
