@@ -3,12 +3,13 @@
 	background-color: white;
 }
 
+/* #### Location picture #### */
 .location {
+	zoom: 1.1;
 	height: 260px;
 	background: url(http://corp.zinio.com/assets/0000/0103/lichen/faae17c77a88068d0484debe05ab3b4d.jpg);
 	background-size: cover;
 	position: relative;
-	float: left;
 }
 
 .new-york h2 {
@@ -30,7 +31,6 @@
 .grid-pic-row {
 	margin-bottom: 15px;
 }
-
 .grid-pic {
 	height: auto;
 	width: 100%;
@@ -39,7 +39,4 @@
 }
 .grid-pic:hover {
 	transform: scale(1.03);
-}
-.grid-pic:after {
-
 }

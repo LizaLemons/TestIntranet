@@ -1,0 +1,16 @@
+#main-container-profile {
+	background-color: white;
+}
+
+#profile-container {
+	border: 1px solid blue;
+}
+.profile-pic,
+.profile-content {
+	border: 1px solid red;
+}
+
+.profile-pic {
+	height: 250px;
+	width: 250px;
+}
