@@ -6,6 +6,6 @@ $("#main-container-2").css({marginTop: heightOfNavbar + -1 + 'px'});
 var heightOfFooter = $("#footer-navbar").height();
 $("#main-container-2").css({marginBottom: heightOfFooter + -15 + 'px'});
 
-// Set height of main-container-2 = to height of window
+// Set height of main-container-2 = to height of window + 15px
 var height = $(window).height();
-$('#main-container-2').css('min-height', height + 'px');
+$('#main-container-2').css('min-height', height + 15 + 'px');
